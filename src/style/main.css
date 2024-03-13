@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeaea;
+  padding-bottom: 100px;
+}
+
+.restaurant-app {
+  width: 80%;
+  margin: auto;
+  padding-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.restaurant-app .subheader-restaurant h3 {
+  font-size: 2.5rem;
+  color: crimson;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.restaurant-app .header-restaurant h1 {
+  font-size: 2.6rem;
+  color: white;
+  text-align: center;
+  background-color: lightseagreen;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.restaurant-app .card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+.restaurant-app .card-container .card-list {
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.restaurant-app .card-container .card-list .card-header {
+  width: 100%;
+}
+.restaurant-app .card-container .card-list .card-header img {
+  width: 100%;
+}
+.restaurant-app .card-container .card-list .card-body {
+  padding: 20px;
+}
+.restaurant-app .card-container .card-list .card-body p {
+  margin-top: 10px;
+  line-height: 25px;
+}/*# sourceMappingURL=main.css.map */
